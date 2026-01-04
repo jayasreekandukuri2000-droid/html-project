@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        <title> HTML FORMS </title>
+        <style>
+            div{
+                border:4px solid red;
+                margin:20px;
+                padding:20px;
+            }
+            button{
+                border:2px solid black;
+                margin-left: 900px;
+                background-color: red;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <!---text box for text using input element-->
+            <form>
+                <label> Full Name:</label><input type="text" placeholder="username"/>
+            </form>
+        </div>
+        <div>
+            <!--text box for password using input element-->
+            <form>
+                <label> User Password:</label><input type="password" placeholder="password"/>
+            </form>
+        </div>
+        <div>
+            <!--text box for mobile number using input element-->
+            <form>
+                <label> User Phone:</label><input type=" number" placeholder="mobile"/> 
+            </form>
+        </div>
+        <div>
+            <!--text box for mail using input element-->
+            <form>
+                <label> mail address:</label><input type="email" placeholder="mail@xyz.com"/>
+            </form> 
+        </div>
+        <div>
+            <!--radio button-->
+            <form>
+                <label> Gender:</label>
+                <label> Male</label>
+                <input type="radio" name="gender"  />
+                <label> female</label>
+                <input type="radio" name="gender"  />
+                <label> others</label>
+                <input type="radio" name="gender"  />
+            </form>
+        </div>
+        <div>
+            <!--checkbox creation-->
+            <form>
+                <label> select your option:</label>
+                <input type="checkbox"/>
+                <label>HTML</label>
+                <input type="checkbox"/>
+                <label>CSS</label>
+                <input type="checkbox"/>
+                <label>JAVASCRIPT</label>
+            </form>
+        </div>
+        <div>
+            <form>
+                <input type="file" name="file" multiple/><br>
+                <input type="date"/><br><br>
+                <input type="time"/>
+
+            </form>
+        </div>
+        <button >Submit</button >
+    </body>
+</html>

@@ -1,2 +1,2 @@
-# html-project
+README
 Simple HTML Website
